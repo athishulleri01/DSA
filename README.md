@@ -1,21 +1,21 @@
-# Dillinger
-## _The Last Markdown Editor, Ever_
+# DSA
+## _placement preparation_
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+### 1.  [Two Sum](https://leetcode.com/problems/two-sum/description/) - 
+My approach or brute force approach:
 
-Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
-AngularJS-powered HTML5 Markdown editor.
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+       for i in range(len(nums)-1):
+            for j in range(i+1,len(nums)):
+                if nums[i]+nums[j] == target :
+                    return [i,j]
+```
+**Time Complexity : 0(n)^2^**
+**Space Complexity : 0(n)**
 
-- Type some Markdown on the left
-- See HTML in the right
-- ✨Magic ✨
 
-## Features
+[![alt text](https://img.youtube.com/vi/video-id/0.jpg)](https://youtu.be/dRUpbt8vHpo?si=ORy5I438ePzSUkX5)
 
-- Import a HTML file and watch it magically convert to Markdown
-- Drag and drop images (requires your Dropbox account be linked)
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
