@@ -2,7 +2,7 @@
 ## _placement preparation_
 
 
-   ### 1.  [Two Sum](https://leetcode.com/problems/two-sum/description/) - 
+   ### 1.  [Two Sum](https://leetcode.com/problems/two-sum/description/) - 1
 My approach or brute force approach:
 
 ```python
@@ -34,3 +34,15 @@ class Solution(object):
 
 [![alt text](https://img.youtube.com/vi/video-id/0.jpg)](https://youtu.be/dRUpbt8vHpo?si=ORy5I438ePzSUkX5)
 
+
+
+
+   ### 2.  [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/description/) - 493
+My approach or brute force approach:
+
+```python
+class Solution:
+   
+```
+**Time Complexity : 0(n)^2^**
+**Space Complexity : 0(n)**
